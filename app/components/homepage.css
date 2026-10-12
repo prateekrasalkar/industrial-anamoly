@@ -1,0 +1,17 @@
+.homepage-shell {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #eff8f9 0%, #ebf3f5 100%);
+}
+
+.page-main {
+    max-width: 1420px;
+    margin: 0 auto;
+    padding: 24px 32px 0;
+}
+
+@media (max-width: 760px) {
+    .page-main {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
